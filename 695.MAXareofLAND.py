@@ -1,5 +1,5 @@
 class Solution:
-    def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
+    def maxAreaOfIsland(self, grid):
         ROWS, COLS = len(grid),len(grid[0])
         visit = set()
         
